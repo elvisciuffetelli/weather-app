@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="header" class="text-center">
+    <h1>Local Weather App</h1>
+  </div> 
+  <div class="container mt-4 text-center" id="contents">
+    <span id="time"></span>
+    <div id="loader">Please wait for the data to load. If nothing happens in 5 seconds, refresh the page</div>
+    <div id="location"><img src="img/loader.gif" alt="loader"></div>
+    <div id="icon"></div>
+    <div id="description"></div>
+    <div id="temp-max"></div>
+    <div id="temp-min"></div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

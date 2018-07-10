@@ -1,0 +1,27 @@
+body {
+  background-color: #EAFFFD;
+  color: rgb(70,70,70);
+
+}
+
+html, body {
+  font-size: 20px;
+}
+
+#header {
+  background-color: bisque;
+}
+
+h1 {
+  color: rgb(20,20,20);
+  text-transform: capitalize;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+
+.icon-prop {
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem 0 1rem 0;
+}
+
