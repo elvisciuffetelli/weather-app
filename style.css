@@ -9,11 +9,11 @@ html, body {
 }
 
 #header {
-  background-color: bisque;
+  background-color: rgb(18,30,134);
 }
 
 h1 {
-  color: rgb(20,20,20);
+  color: #fff;
   text-transform: capitalize;
   padding: 1.5rem 0 1.5rem 0;
 }
